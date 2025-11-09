@@ -1,21 +1,24 @@
----
-layout: blog
-title: Archive
-tagline: Every post blog in a list
-tags : 
-img : 3.jpg
-img-mobile : 3-mobile.jpg
-author : Antonio Trento
-css: 
-js:
-bgcolor: ff5a71
-keywords: grads, archive, posts, blog, jekyll, ruby, web marketing, advertising, Antonio Trento
-canonical: https://grads.github.io/blog
----
-{% include JB/setup %}
-
-
-
-{% assign posts_collate = site.posts %}
-{% include JB/posts_collate %}
-
+<!DOCTYPE HTML>
+<html lang="it">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="refresh" content="0; url=https://antoniotrento.net" />
+	<title>Redirect - Antonio Trento</title>
+	<style>
+		body { font-family: Arial, sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; }
+		.container { text-align: center; }
+		h1 { font-size: 2em; margin-bottom: 1em; }
+		p { font-size: 1.2em; }
+		.spinner { border: 4px solid rgba(255,255,255,0.3); border-radius: 50%; border-top: 4px solid white; width: 40px; height: 40px; animation: spin 1s linear infinite; margin: 20px auto; }
+		@keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1>Reindirizzamento in corso...</h1>
+		<div class="spinner"></div>
+		<p>Sarai reindirizzato ad <strong>antoniotrento.net</strong></p>
+		<p><a href="https://antoniotrento.net" style="color: white;">Clicca qui se non vieni reindirizzato automaticamente</a></p>
+	</div>
+</body>
+</html>

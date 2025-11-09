@@ -1,34 +1,24 @@
----
-layout: blog
-title: Blog
-tags : 
-author : Antonio Trento
-css: 
-js:
-keywords: noalfemminicidio, femminicidio, blog, aiuto, violenza, donne, no-profit
-canonical: https://antoniotrento.github.io/blog
----
-{% include JB/setup %}
-
-<!-- Change the "about information" contained in /_includes/themes/bootstrap/index.html  -->
-
-  {% for post in site.posts %}
-
-                <!-- Blog Post Template on Index page -->
-                <h2>
-                    <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
-                </h2>		
-                {% if post.img %}
-                  <div class="wow fadeIn" data-wow-duration="1s"><img src="{{ BASE_PATH }}/assets/images/{{ post.img }}" alt="{{ post.title }} image" class="img-rounded img-responsive"></div>
-                {% endif %}
-		
-                <p class="lead">
-                    <strong>Tags: {{post.tags | array_to_sentence_string}}. <span class="glyphicon glyphicon-time"></span> Post del {{ post.date | date_to_string }}</strong>
-                </p>
-		
-		{{ post.excerpt }}
-                <a class="btn btn-primary" href="{{ BASE_PATH }}{{ post.url }}">Leggi tutto</a>
-		</br></br></br></br>
-
-  {% endfor %}
-
+<!DOCTYPE HTML>
+<html lang="it">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="refresh" content="0; url=https://antoniotrento.net/blog/" />
+	<title>Redirect - Antonio Trento</title>
+	<style>
+		body { font-family: Arial, sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; }
+		.container { text-align: center; }
+		h1 { font-size: 2em; margin-bottom: 1em; }
+		p { font-size: 1.2em; }
+		.spinner { border: 4px solid rgba(255,255,255,0.3); border-radius: 50%; border-top: 4px solid white; width: 40px; height: 40px; animation: spin 1s linear infinite; margin: 20px auto; }
+		@keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1>Reindirizzamento in corso...</h1>
+		<div class="spinner"></div>
+		<p>Sarai reindirizzato ad <strong>antoniotrento.net</strong></p>
+		<p><a href="https://antoniotrento.net/blog/" style="color: white;">Clicca qui se non vieni reindirizzato automaticamente</a></p>
+	</div>
+</body>
+</html>

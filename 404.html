@@ -1,89 +1,27 @@
----
-layout: error
-title: Errore la pagina non esiste
-tagline: Pagina non trovata
-img : 
-img-mobile : 
-css: 
-js: 
-keywords: 
-canonical: https://antoniotrento.github.io
----
-{% include JB/setup %}
-
-    
-    
-    <!-- Grained Background Start -->
-    <div id="lost">
-
-    <!-- Error Page Start -->
-    <section class="error-page-background">
-       <div class="container">
-     
-         <div class="row">
-                
-           <div class="col-md-12">
-                     
-                      
-                  <!-- Error Page Content Start -->
-               
-                  <div class="text-center">
-                  <a href="" data-toggle="modal" data-target="#reason" title="Why You Are Seeing 404 Page"><i class="icon-question bounce"></i></a>
-                        </div>
-                            
-                            <h2>404</h2>
-                            <p>La pagina che cercavi non esiste.</p>
-                             
-                             <div class="text-center">
-                               <a class="button button-style" href="{{ BASE_PATH }}">Torna alla Home</a>
-                            </div>
-                            
-                            <!-- Error Page Content End --> 
-                     
-                   </div>
-              </div>
-            </div>
-        </section>
-        <!-- Error Page End -->
-        
-       </div>
-       <!-- Grained Background End -->
-       
-       
-       
-       
-       <!-- Reason Popup Start -->
-       <div class="modal fade reason-popup-box padding-top-120" id="reason" role="dialog">
-         <div class="modal-dialog">
-    
-      
-         <div class="modal-content">
-            <div class="modal-body">
-               <div class="row">
-                  <div class="col-sm-12">
-                   
-                   <div class="box-padding">
-                     <button type="button" class="btn pull-right" data-dismiss="modal"><i class="icon-close"></i></button>
-                      <h3>Perchè sei finito sulla pagina 404?</h3>
-                       
-                       <div class="margin-top-20">
-                         
-                          <ul class="list-icon size-sm">
-                            <li>Forse, la pagina è stata rimossa.</li>
-                            <li>Forse, il nome della pagina è stato modificato.</li>
-                            <li>Forse, hai sbagliato a digitare l'indirizzo.</li>
-                            <li>Forse, il link è temporaneamente disabilitato.</li>
-                           </ul>
-                        
-                           </div>
-            
-                         </div>
-
-                      
-                     </div>
-                    </div>
-                 </div>
-             </div>
-          </div>
-       </div>
-       <!-- Reason Popup End -->
+<!DOCTYPE HTML>
+<html lang="it">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="refresh" content="3; url=https://antoniotrento.net" />
+	<title>Pagina non trovata - Antonio Trento</title>
+	<style>
+		body { font-family: Arial, sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; }
+		.container { text-align: center; }
+		h1 { font-size: 3em; margin-bottom: 0.5em; }
+		h2 { font-size: 1.5em; margin-bottom: 1em; font-weight: normal; }
+		p { font-size: 1.2em; }
+		.spinner { border: 4px solid rgba(255,255,255,0.3); border-radius: 50%; border-top: 4px solid white; width: 40px; height: 40px; animation: spin 1s linear infinite; margin: 20px auto; }
+		@keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+		a { color: white; text-decoration: underline; }
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1>404</h1>
+		<h2>Pagina non trovata</h2>
+		<div class="spinner"></div>
+		<p>Sarai reindirizzato ad <strong>antoniotrento.net</strong> tra pochi secondi...</p>
+		<p><a href="https://antoniotrento.net">Clicca qui per andare subito al sito</a></p>
+	</div>
+</body>
+</html>
