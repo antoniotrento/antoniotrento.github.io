@@ -1,4 +1,3 @@
 ---
-layout: redirect
-redirect_to: https://antoniotrento.net/portfolio/
+redirect_to: https://antoniotrento.net/blog/
 ---
