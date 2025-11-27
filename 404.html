@@ -1,27 +1,17 @@
-<!DOCTYPE HTML>
-<html lang="it">
-<head>
-	<meta charset="utf-8" />
-	<meta http-equiv="refresh" content="3; url=https://antoniotrento.net" />
-	<title>Pagina non trovata - Antonio Trento</title>
-	<style>
-		body { font-family: Arial, sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; }
-		.container { text-align: center; }
-		h1 { font-size: 3em; margin-bottom: 0.5em; }
-		h2 { font-size: 1.5em; margin-bottom: 1em; font-weight: normal; }
-		p { font-size: 1.2em; }
-		.spinner { border: 4px solid rgba(255,255,255,0.3); border-radius: 50%; border-top: 4px solid white; width: 40px; height: 40px; animation: spin 1s linear infinite; margin: 20px auto; }
-		@keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
-		a { color: white; text-decoration: underline; }
-	</style>
-</head>
-<body>
-	<div class="container">
-		<h1>404</h1>
-		<h2>Pagina non trovata</h2>
-		<div class="spinner"></div>
-		<p>Sarai reindirizzato ad <strong>antoniotrento.net</strong> tra pochi secondi...</p>
-		<p><a href="https://antoniotrento.net">Clicca qui per andare subito al sito</a></p>
+---
+layout: default
+title: 404 - Pagina Non Trovata
+permalink: /404.html
+---
+
+<section class="relative min-h-screen flex flex-col justify-center items-center bg-white dark:bg-neutral-950 px-6">
+	<div class="text-center">
+		<h1 class="text-9xl font-black text-gray-200 dark:text-white/10 mb-4">404</h1>
+		<h2 class="text-4xl font-bold mb-6 text-brand-black dark:text-white">Pagina non trovata</h2>
+		<p class="text-xl text-gray-500 dark:text-gray-400 mb-10">Sembra che tu ti sia perso nel cloud.</p>
+		<a href="/"
+			class="px-8 py-4 rounded-full bg-brand-blue text-white font-bold hover:bg-blue-600 transition-colors">
+			Torna alla Home
+		</a>
 	</div>
-</body>
-</html>
+</section>
