@@ -1,10 +1,13 @@
 User-Agent: *
-Disallow: 
+Disallow:
 Disallow: /_includes/
 Disallow: /_drafts/
 Disallow: /_config.yml
 Disallow: /_layouts/
 Disallow: /_plugins/
 Disallow: /keybase.txt
+
+# Lasciare crawlabile: Google deve vedere i redirect verso antoniotrento.net.
+# Non Disallow / e non noindex sulle pagine di redirect.
 
 Sitemap: https://antoniotrento.github.io/sitemap.txt

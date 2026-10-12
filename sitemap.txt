@@ -1,8 +1,19 @@
----
-# Remember to set production_url in your _config.yml file!
-title : Sitemap
----
-{% for page in site.pages %}
-{{site.production_url}}{{ page.url }}{% endfor %}
-{% for post in site.posts %}
-{{site.production_url}}{{ post.url }}{% endfor %}
+https://antoniotrento.github.io/
+https://antoniotrento.github.io/blog.html
+https://antoniotrento.github.io/biografia.html
+https://antoniotrento.github.io/portfolio.html
+https://antoniotrento.github.io/about.html
+https://antoniotrento.github.io/servizi.html
+https://antoniotrento.github.io/contatti.html
+https://antoniotrento.github.io/archive.html
+https://antoniotrento.github.io/tags.html
+https://antoniotrento.github.io/grazie.html
+https://antoniotrento.github.io/fullit/
+https://antoniotrento.github.io/snapcats/
+https://antoniotrento.github.io/getshjtdone/
+https://antoniotrento.github.io/no-al-femminicidio/
+https://antoniotrento.github.io/trendo-media-server/
+https://antoniotrento.github.io/hub-for-hugs/
+https://antoniotrento.github.io/helium-jekyll/
+https://antoniotrento.github.io/conversional-ui/
+https://antoniotrento.github.io/new-age/

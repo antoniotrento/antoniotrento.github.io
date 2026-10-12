@@ -1,3 +1,9 @@
+---
+layout: redirect
+redirect_to: https://antoniotrento.net/
+permalink: /changelog/
+---
+
 ## Changelog
 
 Public releases are all root nodes.  
